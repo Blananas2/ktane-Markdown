@@ -6,6 +6,8 @@ It uses a number, called *seed*, to shuffle all of that data. Using the same see
 
 It has two different parts: the Module and the Manual. Both have to be coordinated so that using the same seed, for example "6502", will result in the same data inside of the module as what's shown on the manual.
 
+You can check out the [API for the Rule Seed Modifier mod](https://github.com/CaitSith2/KTANE-mods/wiki/RuleSeedModifier) for more.
+
 ---
 
 ### Long Story:
@@ -15,6 +17,7 @@ This randomness can then be used to shuffle tables of data, generate mazes, rand
 Below are some general steps to add Rule Seed to a module:
 
 1. **The Concept:**
+
 Not all modules can be ruleseeded. Modules with very few rules (Turn The Key), no associated data to vary (Aquarium) or that already random (Custom Keys) cannot easily be ruleseeded.\
 Modules that rely on real-life data (The London Underground, Timezones), while they *can* technically be randomized, might or might not be considered as candidates for Rule Seed.
 
@@ -39,10 +42,10 @@ However, Rule Seed probably shouldn't change the core concept of your module: th
 
     void Start()
     {
-	    MonoRandom rng = ruleseedManager.GetRNG();
+	    MonoRandom Rng = ruleseedManager.GetRNG();
 	    Debug.LogFormat("[InsertModuleNameHere #{0}] Using Rule Seed {1}:", InsertModuleIdHere, Rng.Seed);
 	
-	    if (rng.Seed == 1)
+	    if (Rng.Seed == 1)
 	    {
 		    // Here, initialize the default values that are used for Rule Seed 1
 		    // Those are the rules used by players if they don't use Rule Seed, which is the majority of times,
@@ -59,8 +62,6 @@ However, Rule Seed probably shouldn't change the core concept of your module: th
     If you need to generate a random number, use `rng.Next(minimumInclusive, maximumInclusive);`.\
     If you need to shuffle an Array or List, use `rng.ShuffleFisherYates(ArrayName);`.\
     Using the `MonoRandom` gathered from the `KMRuleseedable` to do those two actions ensures that using the same ruleseed will always result in the same actions, and makes it easier to synchronize with the Manual since equivalent methods exist in JavaScript.
-
-    You can check out the [API for the Rule Seed Modifier mod](https://github.com/CaitSith2/KTANE-mods/wiki/RuleSeedModifier) for more.
 
 3. **The Manual (In Html & JavaScript):**
     1. Add to your Manual `<script src="js/ruleseed.js"></script>` at the top to tell the Manual to load the code for Rule Seed.
@@ -87,7 +88,7 @@ However, Rule Seed probably shouldn't change the core concept of your module: th
     }
     ```
     3. Use the seed to shuffle data abour your module.
-    
+
     If you need to generate a random number use `rnd.next(minimumInclusive, maximumInclusive);`.\
     If you need to shuffle an Array or List, use `rnd.shuffleFisherYates(ArrayName);`.\
     Using those methods ensures the same result as `.Next()` or `.ShuffleFisherYates()` in C# which helps synchronizing modules and manuals.
