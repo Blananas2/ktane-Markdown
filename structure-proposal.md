@@ -10,7 +10,7 @@
 		- Morsematics
 	+ TFC
 + Creating Mods
-	- Modding & Learning Ressources (including softwares)
+	- Modding & Learning Resources (including softwares)
 	- Making Modules
 		+ Tips & Tricks to making Modules
 		+ Modding Tutorials
