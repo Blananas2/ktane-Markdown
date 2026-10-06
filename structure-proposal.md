@@ -10,14 +10,7 @@
 		- Morsematics
 	+ TFC
 + Creating Mods
-	+ Learning Softwares or Languages
-		+ C#
-		+ Unity
-		+ HTML / CSS
-		+ JavaScript
-		+ Blender
-		+ Audacity
-		+ Inkscape
+	- Modding & Learning Ressources (including softwares)
 	- Making Modules
 		+ Tips & Tricks to making Modules
 		+ Modding Tutorials
@@ -33,7 +26,7 @@
 		+ Making the Manual
 		- Making a good Log
 		+ Custom Logfile Analyser
-		+ Quality Visuals and Audio
+		- Quality Visuals and Audio
 		+ Posting the Module (Steam & Repository)
 		+ Other Questions
 			+ Using an external JSON for data storage
@@ -47,7 +40,6 @@
 		+ Explaining Tweaks
 		+ Explaining Factory
 	+ Updating the Repo
-	+ Useful Links and APIs
 	+ Working with Github
 		+ Github commandline
 		+ Github Desktop
