@@ -17,9 +17,7 @@
 		+ Making a Boss Module
 		+ Making a Needy
 		- Rule Seed Modifier
-		+ Adding Twitch Plays Support
-			+ Dynamic Scoring
-			+ Correctly Calling a ProcessTwitchCommand from another Script
+		- Adding Twitch Plays Support
 		+ Adding Colorblind Support
 		+ Adding Souvenir Support
 		+ Finding Mod Ideas for others

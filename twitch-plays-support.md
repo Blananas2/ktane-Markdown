@@ -9,7 +9,7 @@ Module scores are continuously being monitored and maintained, and can be found 
 
 Here is a [great (but slightly outdated) tutorial](https://www.youtube.com/watch?v=_VT0DicIiU0) explaining the basics of Twitch Plays.
 
-## What is needed for a module to have Twitch Plays support?
+## How do I add Twitch Plays support to my module?
 
 **[Here is a link to the documentation](https://github.com/samfundev/KtaneTwitchPlays/wiki/External-Mod-Module-Support) for much more details.**
 
@@ -102,6 +102,10 @@ Using this in combination with variable usage, you can get dynamic scoring by al
 
 Examples of modules implementing Dynamic Scoring include [Cipher Machine](https://github.com/obachs971/CipherCollection/blob/main/Assets/Scripts/cipherMachine.cs#L605) or [100 Levels of Defusal](https://github.com/Espik/100-Levels-of-Defusal/blob/master/Assets/100%20Levels%20of%20Defusal/OneHundredLevelsOfDefusal.cs#L1162).\
 You can also find those in the [Official Twitch Plays Scoring Sheet](https://docs.google.com/spreadsheets/d/1G6hZW0RibjW7n72AkXZgDTHZ-LKj0usRkbAwxSPhcqA/edit?gid=0#gid=0).
+
+One thing to note is that if you use the `awardpoints` command, you must use it **before** the module solves. If your module solves immediately upon pressing the last button, you must determine whether the next button press will solve or not.
+
+This is because Twitch Plays **immediately stops** the `ProcessTwitchCommand()` method when a module solves, even if there's code left to execute. Other methods can still be running obviously, but communication to Twitch Plays is cut
 
 ### Delay between final interaction and the module's solving
 
