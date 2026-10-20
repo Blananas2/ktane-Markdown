@@ -29,6 +29,7 @@
 		+ Other Questions
 			+ Using an external JSON for data storage
 			+ Text visible in the back of the bomb
+			+ RegEx with some common useful ones
 	+ Making Missions
 	+ Making Play Rooms
 	+ Making Bomb Casings
