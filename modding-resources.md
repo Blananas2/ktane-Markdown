@@ -4,6 +4,8 @@ Here is a non-exhaustive list of different links that can help you when making m
 
 ### KTANE Modding
 
+- [A basic introduction tutorial to making a Module](https://www.youtube.com/watch?v=YobuGSBl3i0)
+
 - [YouTube Playlist containing many Modding-related videos](https://www.youtube.com/playlist?list=PL-1P5EmkkFxrwWW6z0uZ5nBdRImsReOQ0)
 
 - [YouTube Playlist showing how to create Interactive Manuals](https://www.youtube.com/playlist?list=PLO1iu7q1dUEanz269bqcCAr82PjB7DEWe)
