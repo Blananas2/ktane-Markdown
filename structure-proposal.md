@@ -45,3 +45,4 @@
 	+ Other Topics
 + Other
 	+ Community Discord
+	+ The Glossary
