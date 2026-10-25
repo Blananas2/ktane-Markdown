@@ -63,4 +63,4 @@ You should also make sure to select audio that sounds appropriate: if your modul
 
 ## Further Reading
 
-- The legendary "Juice It or Lose It" conference by Martin Jonasson & Petry Purho (subtitles included): https://www.youtube.com/watch?v=Fy0aCDmgnxg
+- The legendary "Juice It or Lose It" conference by Martin Jonasson & Petri Purho (subtitles included): https://www.youtube.com/watch?v=Fy0aCDmgnxg
