@@ -64,3 +64,5 @@ You should also make sure to select audio that sounds appropriate: if your modul
 ## Further Reading
 
 - The legendary "Juice It or Lose It" conference by Martin Jonasson & Petri Purho (subtitles included): https://www.youtube.com/watch?v=Fy0aCDmgnxg
+
+- A great explanation by Sinix Design on the Big-Medium-Small design rule, which can be applied to module visuals: https://www.youtube.com/watch?v=ZluGXgpdJj4
