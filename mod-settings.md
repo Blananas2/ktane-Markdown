@@ -48,7 +48,7 @@ If you are using a Service, you can use `modSettings.RefreshSettings()` to refre
 Reading the settings is done through reading `modSettings.Settings`. It gives you a string you must Deserialize (convert from JSON to Class), using `JsonConvert.DeserializeObject<CustomModuleSettings>(modSettings.Settings);`. Use the `using Newtonsoft.Json` assembly for it to work.\
 It is recommended to do this within a try/catch statement to avoid errors due to parsing failures. You can check [Fast Math](<https://github.com/Sirawit7205/ktaneFastMath/blob/master/Assets/FastMathModule.cs#L391>) for an example of how to do this.
 
-For your settings to be placed in the correct locations mentionned above and read by KTANE, you need to either place a json file manually with the correct naming scheme ("[ModId]-settings.json", where [ModId] is the ID entered in Assets/Editor/Resources/ModConfig); or to just create a file named "modSettings.json" with the correct settings in your mod bundle, which will be placed into the correct location automatically. 
+For your settings to be placed in the correct locations mentionned above and read by KTANE, you need to create a file named "modSettings.json" with the correct settings in your mod bundle, which will be placed into the correct location automatically. 
 
 For example, our file for the CustomModuleSettings would have this as its content:
 
