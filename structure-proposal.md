@@ -9,6 +9,7 @@
 	+ Specific Modules FAQ
 		- Morsematics
 	+ TFC
+
 + Creating Mods
 	- Modding & Learning Resources (including softwares)
 	- Making Modules
@@ -43,6 +44,9 @@
 		+ Github commandline
 		+ Github Desktop
 	+ Other Topics
+	- Adding Mod Settings
+	+ Downloading Plugins from the Modkit
+	+ Using wawa
 + Other
 	+ Community Discord
 	+ The Glossary
