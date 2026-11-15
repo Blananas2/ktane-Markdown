@@ -95,6 +95,10 @@ A Needy needs to either keep its timer at 99 seconds forever, or get disarmed ev
 
 ## Other features and good-to-know elements about KTANE TP Support.
 
+### Colorblind Support
+
+Modules that are on Twitch Plays are expected to have Colorblind Support. They also are expected to have a command to enable or disable Colorblind Mode for this singular module at any time, not just upon loading the bomb.
+
 ### Dynamic Scoring
 You can use the command `yield return awardpoints 30;` to award 30 bonus points immediately, or `yield return awardpointsonsolve 30;` to award 30 bonus points when the module solves.
 
