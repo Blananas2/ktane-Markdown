@@ -96,7 +96,7 @@ Having your Module ID be in a variable named "moduleId" is important as the Log 
 
 ### Hidden Logs in LFA
 
-If your Module needs to log a lot of information, such as entire tables (and you should, especially in the case of [Rule Seed](https://github.com/Blananas2/ktane-Markdown/blob/main/ruleseed.md)), logging using `<MODULE NAME #ID>` with `<>` instead of `[]` will not show it in the actual LFA while still making it appear in the Filtered Log.
+If your Module needs to log a lot of information, such as entire tables (and you should, especially in the case of [Rule Seed](<https://github.com/Blananas2/ktane-Markdown/blob/main/ruleseed.md>)), logging using `<MODULE NAME #ID>` with `<>` instead of `[]` will not show it in the actual LFA while still making it appear in the Filtered Log.
 
 Here is an example implementation that allows both types of Logging:
 ```c#
