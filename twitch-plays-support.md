@@ -18,7 +18,8 @@ The main requirement is for the module to implement both the `ProcessTwitchComma
 When a user sends a command targetting your module, Twitch Plays will call `ProcessTwitchCommand`, passing along the command as a parameter. It's then up to you to convert this command into button presses and other interactions.
 
 The `TwitchHelpMessage` is what users will see when they use the `!1 help` command in the chat, and is supposed to describe in details what the available commands are, what they do, and how to format them.\
-You can use `{0}` to mark where your module is should be placed, such as `Press the button with !{0} press.` which will be formatted as `Press the button with !14 press.` if your module has been given ID 14 on the current bomb.
+You can use `{0}` to mark where your module is should be placed, such as `Press the button with !{0} press.` which will be formatted as `Press the button with !14 press.` if your module has been given ID 14 on the current bomb.\
+You can use those `“”` fake quotation marks to have quotation marks-looking characters without terminating the string.
 
 Here is an example for both of those elements in a fake module:
 

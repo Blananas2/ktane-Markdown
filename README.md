@@ -19,9 +19,9 @@ This is still an early and heavily work-in-progress. The list below may change a
   - KTANE Who Can Solve
   - Twitch Plays
     - [What is the ON Profile?](<https://github.com/Blananas2/ktane-Markdown/blob/main/on-profile.md>)
+  - [The Text Field Calculator (TFC)](<https://github.com/Blananas2/ktane-Markdown/blob/main/text-field-calculator.md>)
   - Specific Modules FAQ
     - Morsematics: [Why is 27 a square number?](<https://github.com/Blananas2/ktane-Markdown/blob/main/morsematics-error.md>)
-  - The Text Field Calculator (TFC)
 - Creating Mods for KTANE
   - [Modding & Learning Resources: websites, softwares, documentations](<https://github.com/Blananas2/ktane-Markdown/blob/main/modding-resources.md>)
   - Making Modules
