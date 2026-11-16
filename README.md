@@ -13,6 +13,7 @@ This is still an early and heavily work-in-progress. The list below may change a
 
 
 - Playing KTANE with Mods
+  - [Introduction to playing with Mods](<https://github.com/Blananas2/ktane-Markdown/blob/main/introduction-mods.md>)
   - Profiles & Profile Bombs
   - The Challenge Bomb Site (CBS)
   - Using the Repository to its full potential (Word List Checker, Filtering by bomb, Highlights & Freeform Drawing, Quizzes, etc)
@@ -39,11 +40,13 @@ This is still an early and heavily work-in-progress. The list below may change a
     - [Making a good Log](<https://github.com/Blananas2/ktane-Markdown/blob/main/good-log.md>)
     - Making a custom Logfile Analyser
     - [Adding quality Visuals and Audio to your module](<https://github.com/Blananas2/ktane-Markdown/blob/main/quality-visuals-audio.md>)
-    - Posting the Module (Steam & Repository)
+    - [Posting the Module](<https://github.com/Blananas2/ktane-Markdown/blob/main/posting-mods.md>)
     - Other Questions
       - Using an external JSON for data storage
       - Text visible in the back of the bomb
       - RegEx with some common useful ones
+	  - Why are my highlights looking weird? (backfaces)
+	  - I cannot select my colliders from some angles in Unity
   - Making Missions
   - Making Play Rooms
   - Making Bomb Casings
@@ -53,7 +56,7 @@ This is still an early and heavily work-in-progress. The list below may change a
     - Explaining Tweaks
     - Explaining Factory
   - Updating the Repo
-  - Working with Github
+  - [Working with GitHub](<https://github.com/Blananas2/ktane-Markdown/blob/main/using-github.md>)
     - Github commandline
     - Github Desktop
   - Other Topics

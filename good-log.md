@@ -65,9 +65,9 @@ For your Log to be picked up by the LFA, it needs to follow a specific syntax:
 
 For example: `[The Bulb #1] Bulb is Purple, see-through and off. I is on the left.`
 
-Your Module Name should ideally be the same as the Display Name you set up in Unity (in the KMBombModule component). If it doesn't match, it can be fixed afterwards with a custom LFA, but it's easier if you don't have to do it!
+Your Module Name should ideally be the same as the Display Name you set up in Unity (in the KMBombModule component), which should be the name you put on the Repository. If they don't match, it can be fixed afterwards with a custom LFA, but it's easier if you don't have to do it!
 
-Your Module ID is a positive integer which should be unique for *each instance* of the module. This means that if a bomb has your module three times, one should log using ID 1, another using ID 2, and another using ID 3.
+Your Module ID is a positive integer which should be unique for *each instance* of the module. This means that if a bomb has your module three times, one should log using ID 1, another using ID 2, and another using ID 3. Tweaks searches for it using the regex `(mod|log).*(id|num)`, case insensitive, so any names such as `moduleid`, `MODID`, `LoggingNumber`, `logid`, `moduleNum` or equivalent works; but it needs to be present to properly identify and differentiate between multiple instances of the same mod in the same bomb.
 
 To set this up easily, and make your module compatible with the Log File Analyzer, here is a recommended setup:
 
@@ -83,7 +83,7 @@ void Awake()
 }
 ```
 
-You can then create a Method to format your Logging automatically, it's not necessary but it can save your time. Here is a possible implementation:
+You can then create a Method to format your Logging automatically, it's not necessary but it can save your time. Here is a possible, simple implementation:
 
 ```c#
 void ModuleLog(string message)
@@ -92,11 +92,9 @@ void ModuleLog(string message)
 }
 ```
 
-Having your Module ID be in a variable named "moduleId" is important as the Log File Analyzer will actually grab it to recognize which of your modules struck or solved if multiple are on the same bomb.
-
 ### Hidden Logs in LFA
 
-If your Module needs to log a lot of information, such as entire tables (and you should, especially in the case of [Rule Seed](<https://github.com/Blananas2/ktane-Markdown/blob/main/ruleseed.md>)), logging using `<MODULE NAME #ID>` with `<>` instead of `[]` will not show it in the actual LFA while still making it appear in the Filtered Log.
+If your Module needs to log a lot of information, such as entire tables (and you should, especially in the case of [Rule Seed](<https://github.com/Blananas2/ktane-Markdown/blob/main/ruleseed.md>)), logging using `<MODULE NAME #ID>` with `<>` instead of `[]` will not show it in the actual LFA while still making it appear in the Filtered Log and making searching for it easy with the module name.
 
 Here is an example implementation that allows both types of Logging:
 ```c#
@@ -110,7 +108,7 @@ void ModuleLog(bool LogInLfa, string message)
 ```
 
 
-## How can I go beyond and add pictures, tables or diagrams to my log?
+## How can I have a fancy log with pictures, tables or diagrams?
 
 For this, you'll need to have a Custom Log File Analyzer! You can either implement it yourself (#TODO add link to the written topic), or ask people in the LFA Support Thread inside of #repo-requests in the KTANE Discord.
 

@@ -62,6 +62,11 @@ Here is a non-exhaustive list of different links that can help you when making m
 
 - [Notepad++](https://notepad-plus-plus.org/downloads/) - Free and open-source lightweight text editor
 
+- An IDE (Integrated Development Environment), such as
+  - [Visual Studio](<https://visualstudio.microsoft.com/downloads/>) - Install the packages `.NET desktop development` and `Game development with Unity`, removing everything that is unnecessary on the right.
+  - [Visual Studio Code](<https://code.visualstudio.com/>)
+  - [Rider](<https://www.jetbrains.com/rider/download/>)
+
 ## Documentations
 
 ### KTANE Modding: 

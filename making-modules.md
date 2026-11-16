@@ -6,6 +6,7 @@ The basic checklist for creating your first module is as follows:
 - Add the quality "finishing touches" like pretty textures, sounds, and animations.
 - Test your module by building the module and playing it in-game before uploading to the Steam Workshop.
 - Provide the manual and create a JSON file so the module can be added to the manual repository.
+- No need to create the .PDF (created by the repo) nor the icon of your module (done manually by Blananas2).
 
 ---
 
