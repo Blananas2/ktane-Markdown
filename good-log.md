@@ -2,7 +2,7 @@
 
 If you already know what a module's logging is, skip to the next section.
 
-A Log is a group of messages your module leaves so that players, often using the [Log File Analyzer](https://ktane.timwi.de/More/Logfile%20Analyzer.html), can help themselves understand how your mod works.\
+A Log is a group of messages your module leaves so that players, often using the [Logfile Analyzer](https://ktane.timwi.de/More/Logfile%20Analyzer.html), can help themselves understand how your mod works.\
 Often times, people check the log to:
 - Verify what answer the module expected them to submit.
 - Check how the module got to that answer.
@@ -57,7 +57,7 @@ You can always give the module's point of view using a [hidden Log](#hidden-logs
 - Explicitely states what the rule's condition and subsequent expected answer is.
 - When receiving an input, tells what was done, what was expected, and what the result is.
 
-## My Log doesn't appear in the Log File Analyzer!
+## My Log doesn't appear in the Logfile Analyzer!
 
 For your Log to be picked up by the LFA, it needs to follow a specific syntax:
 
@@ -69,7 +69,7 @@ Your Module Name should ideally be the same as the Display Name you set up in Un
 
 Your Module ID is a positive integer which should be unique for *each instance* of the module. This means that if a bomb has your module three times, one should log using ID 1, another using ID 2, and another using ID 3. Tweaks searches for it using the regex `(mod|log).*(id|num)`, case insensitive, so any names such as `moduleid`, `MODID`, `LoggingNumber`, `logid`, `moduleNum` or equivalent works; but it needs to be present to properly identify and differentiate between multiple instances of the same mod in the same bomb.
 
-To set this up easily, and make your module compatible with the Log File Analyzer, here is a recommended setup:
+To set this up easily, and make your module compatible with the Logfile Analyzer, here is a recommended setup:
 
 ```c#
 // Logging Data
@@ -110,7 +110,7 @@ void ModuleLog(bool LogInLfa, string message)
 
 ## How can I have a fancy log with pictures, tables or diagrams?
 
-For this, you'll need to have a Custom Log File Analyzer! You can either implement it yourself (#TODO add link to the written topic), or ask people in the LFA Support Thread inside of #repo-requests in the KTANE Discord.
+For this, you'll need to have a Custom Logfile Analyzer! You can either implement it yourself (#TODO add link to the written topic), or ask people in the LFA Support Thread inside of #repo-requests in the KTANE Discord.
 
 Link to the [LFA Support Thread](https://discord.com/channels/160061833166716928/1018575584009400350).\
 Invite to the [Discord](https://discord.gg/K6uQMyBcYZ).
