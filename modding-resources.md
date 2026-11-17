@@ -64,7 +64,7 @@ Here is a non-exhaustive list of different links that can help you when making m
 
 - An IDE (Integrated Development Environment), such as:
   - [Visual Studio](<https://visualstudio.microsoft.com/downloads/>) - Install the packages `.NET desktop development` and `Game development with Unity`, removing everything that is unnecessary on the right.
-  - [Visual Studio Code](<https://code.visualstudio.com/>) - Use the extensions `C#` (the official one, not `C# Dev Kit` as our .NET version is too old) and `Unity`. This should be enough as long as they are configured correctly.
+  - [Visual Studio Code](<https://code.visualstudio.com/>) - Use the official extensions [C#](<https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csharp>) (not `C# Dev Kit` as our .NET version is too old) and [Unity](<https://marketplace.visualstudio.com/items?itemName=VisualStudioToolsForUnity.vstuc>). This should be enough as long as they are configured correctly.
   - [Rider](<https://www.jetbrains.com/rider/download/>) - The default installation should suffice.
   - No matter which one you take, in Unity, set it as your External Code Editor under `Edit > Preferences > External Tools` to get access to all features.
 

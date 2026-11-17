@@ -134,7 +134,7 @@ All SVG files, including the Component, must be minified using [this website](<h
   - `Considered` for modules that can get Souvenir Support, but do not have it yet. This is accompagnied by an Explanation field.
   - `NotACanditate` for modules that cannot get Souvenir Support. This is accompagnied by an Explanation field.
   - `Unexamined`, which is equivalent to not having this field
-- `SteamID` can be omitted if the module is closed-source. One reason why is if it uses KTANE assets directly (such as many Not modules) or if it uses connection to external tools (such as Custom Keys or Tyler Verifies).
+- `SourceUrl` can be omitted if the module is closed-source. One reason why is if it uses KTANE assets directly (such as many Not modules) or if it uses connection to external tools (such as Custom Keys or Tyler Verifies).
 - `Symbol` is the Periodic Table symbol for the module. It usually is 1-to-4 characters, letters and numbers only, with only the first letter being capitalized. No duplicate Periodic Table Symbols are allowed on the repo (case-insensitive).
 - `Type` can have the following values: `Regular`, `Needy`, `Appendix`, `Widget` or `Holdable`.
 
